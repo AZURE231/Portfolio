@@ -1,0 +1,12 @@
+{
+  "name": "azure231-portfolio",
+  "private": true,
+  "scripts": {
+    "build": "esbuild shared.jsx directionB.jsx app.jsx --loader:.jsx=jsx --jsx=transform --jsx-factory=React.createElement --jsx-fragment=React.Fragment --outdir=dist --target=es2020 --minify",
+    "watch": "npm run build -- --watch",
+    "serve": "python3 -m http.server 8000"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.1"
+  }
+}
