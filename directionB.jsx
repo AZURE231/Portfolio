@@ -220,12 +220,12 @@ function HeroB() {
           azure231 · cozy corner ✿
         </div>
         <nav style={{ display: 'flex', gap: 22, fontFamily: "'Pixelify Sans', monospace", fontWeight: 600, fontSize: 18 }}>
-          {[['#about', 'about'], ['#games', 'games'], ['#asap', 'asap'], ['#skills', 'skills'], ['#contact', 'say hi']].map(([h, l], i) =>
+          {[['#about', 'about'], ['#games', 'games'], ['#asap', 'asap'], ['#skills', 'skills'], ['CV/', 'cv'], ['#contact', 'say hi']].map(([h, l], i) =>
           <a key={l} href={h} style={{
             color: B_COLORS.ink, textDecoration: 'none',
             padding: '4px 10px', background: i % 2 ? '#fff' : 'transparent',
             border: i % 2 ? `2px solid ${B_COLORS.ink}` : 'none',
-            transform: `rotate(${[-1, 1, -1, 1, -1][i]}deg)`
+            transform: `rotate(${[-1, 1, -1, 1, -1, 1][i]}deg)`
           }}>{l}</a>
           )}
         </nav>
