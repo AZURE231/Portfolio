@@ -103,7 +103,7 @@ const GAMES = [
     palette: ['#1d4ed8', '#22d3ee', '#fde047', '#0ea5e9'],
     accent: '#0284c7',
     stats: [
-      { label: 'visits',         value: 4_600_000, suffix: '+', display: '4.6M' },
+      { label: 'visits',         value: 13_700_000, suffix: '+', display: '13.7M' },
       { label: 'favorites',      value: 55_800,    suffix: '+', display: '55.8K' },
       { label: 'peak concurrent', value: 10_000,   suffix: '',  display: '10K' },
       { label: 'release',        value: '2025-11', display: 'NOV ’25' },

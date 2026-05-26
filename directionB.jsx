@@ -333,7 +333,7 @@ function HeroB() {
 function Marquee() {
   const items = [
   '✿ now playing: lo-fi beats & hunt giant fish',
-  '✿ 4.6M+ visits, one fish at a time',
+  '✿ 13.7M+ visits, one fish at a time',
   '✿ pixels glued by hand · vietnam → ∞',
   '✿ tea on · open for cozy jams',
   '✿ no two pixels alike',
@@ -456,7 +456,7 @@ function AboutB() {
 // ─────── STATS ROW (Hunt Giant Fish) ───────
 function StatsBanner() {
   const [ref, vis] = useInView(0.3);
-  const visits = useCountUp(4_600_000, vis, 1500);
+  const visits = useCountUp(13_700_000, vis, 1500);
   const favorites = useCountUp(55_800, vis, 1500);
   const concurrent = useCountUp(10_000, vis, 1600);
 
